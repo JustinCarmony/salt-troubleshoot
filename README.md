@@ -55,6 +55,7 @@ salt '*' state.show_top
 
 # Show me a specific salt sls file:
 salt '*' state.show_sls example.state
+```
 
 ## Pillar items!
 
@@ -76,3 +77,7 @@ salt '*' pillar.items
 ## Grains!
 
 Okay, what are the actual grain values:
+```bash
+# List grains
+salt '*' grains.ls
+```
