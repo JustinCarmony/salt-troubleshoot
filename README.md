@@ -57,6 +57,10 @@ salt '*' state.show_top
 salt '*' state.show_sls example.state
 ```
 
+Heck, pretty much everything in the 
+[state module docs](http://docs.saltstack.com/ref/modules/all/salt.modules.state.html) 
+is a gem.
+
 ## Pillar items!
 
 Make sure you've refreshed your pillar items.
