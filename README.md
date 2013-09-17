@@ -77,6 +77,12 @@ Show me my pillar values:
 salt '*' pillar.items
 ```
 
+Can my minion get the pillar data correctly?
+
+```bash
+# From the minion
+salt-call pillar.get string:to:pillar:data
+```
 
 ## Grains!
 
